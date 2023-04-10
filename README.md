@@ -38,15 +38,18 @@ This Document is a **bash** execution Guide for the driver of **Elfin Arm** in *
     nohup /home/<Your Name>/elfin_run/elfin_t4.sh > /home/<Your Name>/elfin_run/logs/elfin_t4.log 2>&1 &
 
 - Modify **elfin_t1.sh** so that it works for your device: 
+
     #! /bin/bash
     source /home/<Your Name>/catkin_ws/devel/setup.bash
     cd /home/<Your Name>/catkin_ws && roslaunch elfin_robot_bringup elfin5_bringup.launch
 
 - Modify **elfin_t2.1.sh** so that it works for your device: 
+
     #! /bin/bash
     sudo chrt 10 /home/<Your Name>/elfin_run/elfin_t2.sh
 
 - Modify **elfin_t2.sh** so that it works for your device: 
+
     #! /bin/bash
     #echo 1 | sudo -S chrt 10 bash
     source /opt/ros/noetic/setup.bash
@@ -54,11 +57,13 @@ This Document is a **bash** execution Guide for the driver of **Elfin Arm** in *
     cd /home/<Your Name>/catkin_ws && roslaunch elfin_robot_bringup elfin_ros_control.launch
 
 - Modify **elfin_3.sh** so that it works for your device: 
+
     #! /bin/bash
     source /home/<Your Name>/catkin_ws/devel/setup.bash
     cd /home/<Your Name>/catkin_ws && roslaunch elfin5_moveit_config moveit_planning_execution.launch
 
 - Modify **elfin_t4.sh** so that it works for your device: 
+
     #! /bin/bash
     source /home/<Your Name>/catkin_ws/devel/setup.bash
     cd /home/<Your Name>/catkin_ws && roslaunch elfin_basic_api elfin_basic_api.launch
