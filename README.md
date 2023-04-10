@@ -32,11 +32,11 @@ This Document is a **bash** execution Guide for the driver of **Elfin Arm** in *
 
     #! /bin/bash
     
-    nohup /home/<Your Name>/elfin_run/elfin_t1.sh > /home/<Your Name>/elfin_run/logs/elfin_t1.log 2>&1 &
+    nohup /home/<Your_Name>/elfin_run/elfin_t1.sh > /home/<Your_Name>/elfin_run/logs/elfin_t1.log 2>&1 &
     
     sleep 10s
     
-    nohup /home/<Your Name>/elfin_run/elfin_t2.1.sh > /home/<Your Name>/elfin_run/logs/elfin_t2.log 2>&1 & 
+    nohup /home/<Your_Name>/elfin_run/elfin_t2.1.sh > /home/<Your_Name>/elfin_run/logs/elfin_t2.log 2>&1 & 
     
     sleep 20s
     
