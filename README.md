@@ -6,7 +6,7 @@ This Document is a **bash** execution Guide for the driver of **Elfin Arm** in *
 ## Download from github
 
 - Using git clone:
-- 
+
     git clone https://github.com/xinwenir/elfin_run.git /home/<Your Name>
 
 - Stored in the device power-on boot command:
