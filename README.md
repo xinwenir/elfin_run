@@ -69,3 +69,7 @@ This Document is a **bash** execution Guide for the driver of **Elfin Arm** in *
         #! /bin/bash
         source /home/<Your_Name>/catkin_ws/devel/setup.bash
         cd /home/<Your_Name>/catkin_ws && roslaunch elfin_basic_api elfin_basic_api.launch
+
+## ExecStrat.md
+
+How to configure elfin_run.sh to boot from boot.
