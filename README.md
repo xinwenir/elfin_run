@@ -72,4 +72,8 @@ This Document is a **bash** execution Guide for the driver of **Elfin Arm** in *
 
 ## ExecStrat.md
 
-How to configure elfin_run.sh to boot from boot.
+How to configure elfin_run.sh to boot from boot in **Ubuntu 20.04**.
+
+## ExecStrat1.md
+
+How to configure elfin_run.sh to boot from boot in **Ubuntu 18.04**， which can be also used in **Ubuntu 20.04**.
