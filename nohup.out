@@ -1,0 +1,13 @@
+./elfin_t1.sh: 2: source: not found
+[31mRLException: [elfin5_bringup.launch] is neither a launch file in package [elfin_robot_bringup] nor is [elfin_robot_bringup] a launch file name[0m
+[31mThe traceback for the exception was written to the log file[0m
+[sudo] password for zxw: ./elfin_t2.sh: 2: source: not found
+./elfin_t2.sh: 4: source: not found
+[31mRLException: [elfin_ros_control.launch] is neither a launch file in package [elfin_robot_bringup] nor is [elfin_robot_bringup] a launch file name[0m
+[31mThe traceback for the exception was written to the log file[0m
+./elfin_t3.sh: 2: source: not found
+[31mRLException: [moveit_planning_execution.launch] is neither a launch file in package [elfin5_moveit_config] nor is [elfin5_moveit_config] a launch file name[0m
+[31mThe traceback for the exception was written to the log file[0m
+./elfin_t4.sh: 2: source: not found
+[31mRLException: [elfin_basic_api.launch] is neither a launch file in package [elfin_basic_api] nor is [elfin_basic_api] a launch file name[0m
+[31mThe traceback for the exception was written to the log file[0m
