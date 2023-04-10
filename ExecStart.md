@@ -38,13 +38,13 @@
 - 如果服务正在运行，你应该看到类似于以下内容的输出：
 
 
-> ● xx.service - My xx script
->      Loaded: loaded (/etc/systemd/system/xx.service; enabled; vendor preset: enabled)
->      Active: active (running) since Mon 2021-09-27 16:45:44 UTC; 2s ago
->    Main PID: 1234 (xx.sh)
->       Tasks: 1 (limit: 1074)
->      Memory: 2.9M
->      CGroup: /system.slice/xx.service
->              └─1234 /bin/bash /path/to/xx.sh
+        ● xx.service - My xx script
+            Loaded: loaded (/etc/systemd/system/xx.service; enabled; vendor preset: enabled)
+            Active: active (running) since Mon 2021-09-27 16:45:44 UTC; 2s ago
+        Main PID: 1234 (xx.sh)
+            Tasks: 1 (limit: 1074)
+            Memory: 2.9M
+            CGroup: /system.slice/xx.service
+                    └─1234 /bin/bash /path/to/xx.sh
 
 - 现在，当你重启 Ubuntu 20.04 时，脚本将自动启动。
