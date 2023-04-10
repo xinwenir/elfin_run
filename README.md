@@ -70,10 +70,10 @@ This Document is a **bash** execution Guide for the driver of **Elfin Arm** in *
         source /home/<Your_Name>/catkin_ws/devel/setup.bash
         cd /home/<Your_Name>/catkin_ws && roslaunch elfin_basic_api elfin_basic_api.launch
 
-## ExecStrat.md
+## ExecStart.md
 
 How to configure elfin_run.sh to boot from boot in **Ubuntu 20.04**.
 
-## ExecStrat1.md
+## ExecStart1.md
 
 How to configure elfin_run.sh to boot from boot in **Ubuntu 18.04**， which can be also used in **Ubuntu 20.04**.
